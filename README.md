@@ -1,51 +1,120 @@
-# Data Analytics Portfolio — Power BI & SQL
+<div align="center">
 
-Hi! This repository showcases hands-on projects completed as part of a professional **Power BI / SQL data analytics training course**. Each project focuses on a different stage of the analytics workflow — data cleaning, data modeling, DAX, and dashboard design.
+# 📊 Data Analytics Portfolio
+### Power BI · SQL · Tableau
 
-## 🛠️ Tools & Skills
-`Power BI Desktop` · `DAX` · `Data Modeling` · `SQL` · `Data Cleaning` · `Data Visualization`
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-FFCA28?style=for-the-badge&logo=microsoft&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
-## 📂 Projects
+</div>
 
-| Project | Tool | Description |
-|---|---|---|
-| [HR Analytics Dashboard](./hr-analytics-dashboard) | Power BI | Employee attrition tracking dashboard |
-| [Promotions Dashboard](./promotions-dashboard) | Power BI | Retail revenue & promotions performance dashboard |
-| [SQL Data Cleaning — Layoffs Dataset](./sql-data-cleaning-layoffs) | SQL | End-to-end data cleaning workflow |
+Hi! This repository showcases hands-on projects completed as part of professional **Power BI, SQL, and Tableau data analytics training courses**. Each project covers a different stage of the analytics workflow — data cleaning, data modeling, DAX/calculations, and dashboard design.
 
-Each project folder contains its own `README.md` with a full description, features, and skills demonstrated.
+---
+
+## 📑 Table of Contents & Projects
+
+<table>
+<tr>
+<th>Table of Contents</th>
+<th>Project Name & Description</th>
+</tr>
+<tr>
+<td valign="top">
+
+1. [Project 1: HR Analytics Dashboard](./01-hr-analytics-dashboard)
+2. [Project 2: Promotions Dashboard](./02-promotions-dashboard)
+3. [Project 3: SQL Data Cleaning — Layoffs Dataset](./03-sql-data-cleaning-layoffs)
+4. [Project 4: Sales Performance Dashboard](./04-sales-performance-dashboard)
+
+</td>
+<td valign="top">
+
+**Project 1 — HR Analytics Dashboard** &nbsp;![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+Employee attrition tracking dashboard with KPIs and breakdowns by department, gender, education, and job role.
+
+**Project 2 — Promotions Dashboard** &nbsp;![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+Retail revenue & promotions performance dashboard comparing revenue with vs. without promotions.
+
+**Project 3 — SQL Data Cleaning** &nbsp;![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+End-to-end data cleaning workflow — deduplication, standardization, and null handling on a layoffs dataset.
+
+**Project 4 — Sales Performance Dashboard** &nbsp;![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+Sales KPI dashboard with parameter-driven Top N analysis, built on the Northwind Traders dataset.
+
+</td>
+</tr>
+</table>
+
+Each project folder contains its own `README.md` with a full overview, dataset description, screenshots (where available), and skills demonstrated.
+
+---
 
 ## 📁 Repository Structure
 
 ```
-power-bi-sql-portfolio/
+data-analytics-portfolio/
 ├── README.md
+├── LICENSE
 │
-├── hr-analytics-dashboard/
+├── 01-hr-analytics-dashboard/
 │   ├── README.md
-│   ├── HR-Analytics-Dashboard.pbix
+│   ├── reports/                       # dashboard screenshots
+│   ├── src/
+│   │   └── HR-Analytics-Dashboard.pbix
 │   └── data/
 │       └── HR-Employee-Data.xlsx
 │
-├── promotions-dashboard/
+├── 02-promotions-dashboard/
 │   ├── README.md
-│   ├── Promotions-Dashboard.pbix
+│   ├── reports/                       # dashboard screenshots
+│   ├── src/
+│   │   └── Promotions-Dashboard.pbix
 │   └── data/
 │       └── Walmart-Orders-Data.csv
 │
-└── sql-data-cleaning-layoffs/
+├── 03-sql-data-cleaning-layoffs/
+│   ├── README.md
+│   ├── src/
+│   │   ├── 01-remove-duplicates.sql
+│   │   ├── 02-standardize-data.sql
+│   │   └── 03-handle-nulls-and-blanks.sql
+│   └── data/
+│       └── layoffs-raw-data.csv
+│
+└── 04-sales-performance-dashboard/
     ├── README.md
-    ├── 01-remove-duplicates.sql
-    ├── 02-standardize-data.sql
-    ├── 03-handle-nulls-and-blanks.sql
+    ├── reports/                       # ✅ dashboard screenshots included
+    │   ├── main-dashboard.png
+    │   ├── orders-dashboard.png
+    │   └── sales-story.png
+    ├── src/
+    │   └── Sales-Performance-Dashboard.twbx
     └── data/
-        └── layoffs-raw-data.csv
+        └── Northwind-Traders-Data.xlsx
 ```
 
-## 📌 About
+---
 
-These projects were completed as part of a structured Power BI / SQL training course to build practical, job-ready data analytics skills — from cleaning raw data to building interactive, decision-ready dashboards.
+## 📸 About the Screenshots
+The **Sales Performance Dashboard** (Tableau) folder already includes real dashboard preview images, extracted directly from the workbook file. The **Power BI** project folders have empty `reports/` folders with instructions inside each README — Power BI files don't store exportable screenshots internally, so open each `.pbix` in Power BI Desktop and export/screenshot the report pages to complete those folders.
+
+## 📌 About
+These projects were completed as part of structured Power BI, SQL, and Tableau training courses to build practical, job-ready data analytics skills — from cleaning raw data to building interactive, decision-ready dashboards.
 
 ## 📫 Contact
-
 *Add your name, LinkedIn, and email here.*
+
+---
+
+## 📄 License & Copyright
+
+This repository is licensed under the [MIT License](./LICENSE).
+
+© 2026 [Your Name]. All rights reserved.
+
+<sub>Datasets used in these projects are sample/training datasets used for educational purposes only.</sub>
