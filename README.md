@@ -8,7 +8,6 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![DAX](https://img.shields.io/badge/DAX-FFCA28?style=for-the-badge&logo=microsoft&logoColor=black)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
 </div>
 
@@ -16,23 +15,16 @@ Hi! This repository showcases hands-on projects completed as part of professiona
 
 ---
 
-## 📑 Table of Contents & Projects
-
-<table>
-<tr>
-<th>Table of Contents</th>
-<th>Project Name & Description</th>
-</tr>
-<tr>
-<td valign="top">
+## 📑 Table of Contents
 
 1. [Project 1: HR Analytics Dashboard](./01-hr-analytics-dashboard)
 2. [Project 2: Promotions Dashboard](./02-promotions-dashboard)
 3. [Project 3: SQL Data Cleaning — Layoffs Dataset](./03-sql-data-cleaning-layoffs)
 4. [Project 4: Sales Performance Dashboard](./04-sales-performance-dashboard)
 
-</td>
-<td valign="top">
+---
+
+## 📝 Project Summary
 
 **Project 1 — HR Analytics Dashboard** &nbsp;![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 Employee attrition tracking dashboard with KPIs and breakdowns by department, gender, education, and job role.
@@ -46,10 +38,6 @@ End-to-end data cleaning workflow — deduplication, standardization, and null h
 **Project 4 — Sales Performance Dashboard** &nbsp;![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
 Sales KPI dashboard with parameter-driven Top N analysis, built on the Northwind Traders dataset.
 
-</td>
-</tr>
-</table>
-
 Each project folder contains its own `README.md` with a full overview, dataset description, screenshots (where available), and skills demonstrated.
 
 ---
@@ -59,7 +47,6 @@ Each project folder contains its own `README.md` with a full overview, dataset d
 ```
 data-analytics-portfolio/
 ├── README.md
-├── LICENSE
 │
 ├── 01-hr-analytics-dashboard/
 │   ├── README.md
@@ -105,16 +92,3 @@ The **Sales Performance Dashboard** (Tableau) folder already includes real dashb
 
 ## 📌 About
 These projects were completed as part of structured Power BI, SQL, and Tableau training courses to build practical, job-ready data analytics skills — from cleaning raw data to building interactive, decision-ready dashboards.
-
-## 📫 Contact
-*Add your name, LinkedIn, and email here.*
-
----
-
-## 📄 License & Copyright
-
-This repository is licensed under the [MIT License](./LICENSE).
-
-© 2026 [Your Name]. All rights reserved.
-
-<sub>Datasets used in these projects are sample/training datasets used for educational purposes only.</sub>

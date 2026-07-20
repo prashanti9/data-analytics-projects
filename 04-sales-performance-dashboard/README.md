@@ -54,4 +54,4 @@ Parameters · KPI Design · Trend Analysis · Top-N Analysis · Dashboards & Sto
 
 ---
 
-<sub>© 2026 [Your Name] · Part of the [Data Analytics Portfolio](../README.md) · [MIT License](../LICENSE)</sub>
+<sub>Part of the [Data Analytics Portfolio](../README.md)</sub>

@@ -47,4 +47,4 @@ Data Visualization (KPI cards, stacked column chart, line chart) · CSV source d
 
 ---
 
-<sub>© 2026 [Your Name] · Part of the [Data Analytics Portfolio](../README.md) · [MIT License](../LICENSE)</sub>
+<sub>Part of the [Data Analytics Portfolio](../README.md)</sub>

@@ -41,4 +41,4 @@ Window Functions (`ROW_NUMBER() OVER PARTITION BY`) · CTEs · Self-Joins
 
 ---
 
-<sub>© 2026 [Your Name] · Part of the [Data Analytics Portfolio](../README.md) · [MIT License](../LICENSE)</sub>
+<sub>Part of the [Data Analytics Portfolio](../README.md)</sub>
