@@ -34,6 +34,11 @@ The dataset contains company layoff records with 9 fields:
 - Standardized inconsistent text values (trimmed whitespace, corrected formatting) across key fields
 - Identified null and blank values and resolved them using self-joins to cross-reference related records with matching company/location
 
+## 💡 Key Insights & Recommendations
+- **Data quality findings:** the raw dataset (2,361 records) contained 5 exact duplicate rows, all removed during cleaning.
+- **Significant missingness in key metrics:** 31.3% of records (740) were missing `total_laid_off`, and 33.3% (785) were missing `percentage_laid_off` — roughly a third of records lacked the core layoff-severity metrics before cleaning. `funds_raised_millions` was missing in 8.9% of records (209).
+- **Recommendation:** since a third of records are missing the primary layoff metrics, any downstream analysis (e.g., total layoffs by industry/year) should explicitly account for this gap — either by flagging affected rows or sourcing a secondary field to backfill missing values — rather than treating the cleaned dataset as complete.
+
 ## ⚙️ Technologies Used
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 

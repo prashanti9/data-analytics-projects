@@ -16,9 +16,8 @@ A multi-page Power BI dashboard built during a professional training course to m
 
 ## 🖼️ Reports
 
-> 📸 **Add your dashboard screenshot(s) here.** This report has 4 pages: *Total Revenues*, *Revenue by Month & Store*, *Revenue with Promotions*, and *Promotions DashBoard*. Export each page from Power BI Desktop and save them as `reports/page-1-total-revenues.png`, `reports/page-2-revenue-by-month-store.png`, etc. Then reference them below:
->
-> `![Total Revenues](./reports/page-1-total-revenues.png)`
+![Promotions Dashboard](./reports/promotions-dashboard.png)
+*Promotions Dashboard — revenue comparisons with and without promotions, segmented by month and store*
 
 ## 📂 src / data
 - `src/Promotions-Dashboard.pbix` — the Power BI report file (open in Power BI Desktop)
@@ -38,6 +37,11 @@ The dataset contains retail transaction records with 28 fields, including:
 - Built DAX measures comparing revenue scenarios with and without promotions applied
 - Designed a multi-page report: KPI cards for revenue comparison, a 100% stacked column chart of revenue by month and store, and a line chart of revenue trends over time
 - Added slicers for promotion type and promotion usage to enable interactive filtering
+
+## 💡 Key Insights & Recommendations
+- **Promotions correlate with higher total revenue, but the per-transaction lift is modest:** 52.1% of transactions had a promotion applied. Total revenue from promoted transactions ($8.06M) was ~12% higher than non-promoted ($7.20M), but average revenue *per transaction* was only ~2.8% higher ($3,092.60 vs $3,009.27) — the total revenue gap is driven more by promotion frequency than by significantly larger basket sizes.
+- **Store performance is fairly even, with Los Angeles leading:** Los Angeles ($3.28M) is the top-revenue store location, narrowly ahead of Chicago ($3.16M), with all five stores within ~11% of each other.
+- **Recommendation:** since promotions show only a small basket-size lift, evaluate whether current promotion types (BOGO, Percentage Discount) are the right lever — testing higher-value or loyalty-targeted promotions may drive a larger increase in average order value rather than just transaction volume.
 
 ## ⚙️ Technologies Used
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)

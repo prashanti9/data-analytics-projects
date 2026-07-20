@@ -17,9 +17,8 @@ An interactive Power BI dashboard built during a professional training course to
 
 ## 🖼️ Reports
 
-> 📸 **Add your dashboard screenshot(s) here.** Export the report page from Power BI Desktop (File → Export → Export to PDF, then screenshot, or use `Print Screen`) and save it as `reports/hr-dashboard-overview.png`. Then reference it below:
->
-> `![HR Analytics Dashboard](./reports/hr-dashboard-overview.png)`
+![HR Analytics Dashboard](./reports/hr-analytics-dashboard.png)
+*HR Analytics Dashboard — attrition overview with KPIs and workforce breakdowns*
 
 ## 📂 src / data
 - `src/HR-Analytics-Dashboard.pbix` — the Power BI report file (open in Power BI Desktop)
@@ -39,6 +38,13 @@ The dataset contains **~1,470 employee records** with 37 fields covering:
 - Designed KPI cards and charts (treemap, donut, bar, column, area, pivot table) to visualize attrition trends
 - Added a department slicer for interactive filtering
 - Applied formatting and styling for a clean, readable dashboard layout
+
+## 💡 Key Insights & Recommendations
+- **Pay is the strongest attrition signal:** 68.5% of employees who left (163 of 238) were in the lowest salary band ("Upto 5k") — attrition is heavily concentrated among the lowest earners.
+- **Overtime correlates strongly with attrition:** 53.8% of leavers had worked overtime, nearly double the overtime rate of the overall workforce (28.2%) — suggesting overtime/workload is a meaningful risk factor.
+- **Attrition skews early-career:** leavers had a shorter average tenure (5.5 years) than the overall workforce (7.2 years), and the 26–35 age group accounts for 48.7% of all attrition.
+- **Concentrated in one department:** Research & Development alone accounts for 133 of 238 leavers (55.9%), with Laboratory Technician and Research Scientist as the top affected roles.
+- **Recommendation:** prioritize retention initiatives (pay review, overtime/workload management) for early-tenure, lower-salary-band employees in Research & Development, where attrition risk is most concentrated.
 
 ## ⚙️ Technologies Used
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)

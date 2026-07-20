@@ -51,6 +51,7 @@ data-analytics-portfolio/
 ├── 01-hr-analytics-dashboard/
 │   ├── README.md
 │   ├── reports/                       # dashboard screenshots
+│   │   └── hr-analytics-dashboard.png
 │   ├── src/
 │   │   └── HR-Analytics-Dashboard.pbix
 │   └── data/
@@ -59,6 +60,7 @@ data-analytics-portfolio/
 ├── 02-promotions-dashboard/
 │   ├── README.md
 │   ├── reports/                       # dashboard screenshots
+│   │   └── promotions-dashboard.png
 │   ├── src/
 │   │   └── Promotions-Dashboard.pbix
 │   └── data/
@@ -76,9 +78,8 @@ data-analytics-portfolio/
 └── 04-sales-performance-dashboard/
     ├── README.md
     ├── reports/                       # ✅ dashboard screenshots included
-    │   ├── main-dashboard.png
-    │   ├── orders-dashboard.png
-    │   └── sales-story.png
+    │   ├── northwind-traders-main-dashboard.png
+    │   └── northwind-traders-orders-dashboard.png
     ├── src/
     │   └── Sales-Performance-Dashboard.twbx
     └── data/
@@ -86,9 +87,6 @@ data-analytics-portfolio/
 ```
 
 ---
-
-## 📸 About the Screenshots
-The **Sales Performance Dashboard** (Tableau) folder already includes real dashboard preview images, extracted directly from the workbook file. The **Power BI** project folders have empty `reports/` folders with instructions inside each README — Power BI files don't store exportable screenshots internally, so open each `.pbix` in Power BI Desktop and export/screenshot the report pages to complete those folders.
 
 ## 📌 About
 These projects were completed as part of structured Power BI, SQL, and Tableau training courses to build practical, job-ready data analytics skills — from cleaning raw data to building interactive, decision-ready dashboards.

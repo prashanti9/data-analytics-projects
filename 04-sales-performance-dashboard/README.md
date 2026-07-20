@@ -18,14 +18,11 @@ An interactive Tableau sales performance dashboard built during a professional t
 
 The workbook contains two dashboards and a story combining multiple views:
 
-![Main Dashboard](./reports/main-dashboard.png)
+![Main Dashboard](./reports/northwind-traders-main-dashboard.png)
 *Main Dashboard — Revenue, Orders, Customers, Avg Discount, and Avg Shipping KPIs with trend lines*
 
-![Orders Dashboard](./reports/orders-dashboard.png)
+![Orders Dashboard](./reports/northwind-traders-orders-dashboard.png)
 *Orders Dashboard — Top N Customers/Products (parameter-driven), donut chart, tree map, and subcategory breakdown*
-
-![Sales Story](./reports/sales-story.png)
-*Story view combining the dashboards into a single narrative*
 
 > Note: these are workbook thumbnail previews extracted from the Tableau file. For higher-resolution images, open the workbook in Tableau Desktop/Public and export each dashboard directly.
 
@@ -45,6 +42,12 @@ The Northwind Traders "Orders" dataset is a classic sample e-commerce dataset wi
 - Created a dynamic Top N Customers/Products view using parameters, allowing users to adjust the number of results shown and switch between Revenue and Quantity
 - Designed supporting visuals — donut chart, tree map, combination chart, and text table — to break down performance by subcategory
 - Combined multiple views into two dashboards and a Tableau Story for a cohesive, presentable analysis
+
+## 💡 Key Insights & Recommendations
+- **Category concentration:** Beverages ($286.5K) and Dairy Products ($251.3K) are the top two categories by revenue, together accounting for ~40% of total revenue ($1,354,459) across 830 orders.
+- **Customer concentration:** the top 5 customers (of 89 total) account for ~33% of total revenue — QUICK-Stop, Ernst Handel, and Save-a-lot Markets are the top 3.
+- **Discounting is moderate but not rare:** 38.9% of order line items include a discount, averaging 5.6% off when applied.
+- **Recommendation:** given the revenue concentration in a small set of top customers, a customer-tier or account-health view (e.g., order frequency/recency by top accounts) would help flag retention risk among these high-value accounts before it shows up in revenue.
 
 ## ⚙️ Technologies Used
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
