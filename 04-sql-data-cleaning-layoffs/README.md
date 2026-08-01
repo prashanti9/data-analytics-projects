@@ -1,3 +1,5 @@
+<hr>
+
 <div align="center">
 
 # Project 4: SQL Data Cleaning — Layoffs Dataset
@@ -12,9 +14,6 @@
 
 ## 📊 Overview
 A SQL data cleaning project completed during a professional training course, practicing the standard workflow for preparing raw data for analysis: removing duplicates, standardizing text values, and resolving null/blank values.
-
-## 🖼️ Reports
-This is a scripting/data-prep project rather than a visual dashboard, so there are no report screenshots. If you'd like to showcase results, you could add a `reports/` folder with before/after query result screenshots (e.g., `reports/before-cleaning.png`, `reports/after-cleaning.png`).
 
 ## 🛠️ Project Details
 - Created staging tables (`layoff_staging`, `layoff_staging2`) to clean data without altering the original raw dataset
@@ -47,3 +46,5 @@ Window Functions (`ROW_NUMBER() OVER PARTITION BY`) · CTEs · Self-Joins
 ---
 
 <sub>Part of the [Data Analytics Portfolio](../README.md)</sub>
+
+<hr>

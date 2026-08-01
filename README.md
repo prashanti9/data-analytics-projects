@@ -11,7 +11,9 @@
 
 </div>
 
-Hi! This repository showcases hands-on projects completed as part of professional **Power BI, SQL, and Tableau data analytics training courses**. Each project covers a different stage of the analytics workflow — data cleaning, data modeling, DAX/calculations, and dashboard design.
+Hi! This repository showcases end-to-end data analytics projects where I cleaned raw data, modeled it for analysis, built DAX/SQL logic, and designed interactive dashboards to turn it into decision-ready insight. Each project reflects the full workflow I'd bring to a real analytics role — from a messy dataset and a set of business requirements to a polished, insight-driven deliverable in **Power BI, SQL, and Tableau**.
+
+---
 
 ---
 
@@ -25,10 +27,12 @@ Hi! This repository showcases hands-on projects completed as part of professiona
 
 ---
 
+---
+
 ## 📝 Project Summary
 
 <a id="finance-analytics-dashboard"></a>
-### Finance Analytics Dashboard &nbsp;<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" height="17">&nbsp;&nbsp;[<img src="https://img.shields.io/badge/View%20Project-%E2%86%92-cfe2ff?style=flat-square&labelColor=f6f8fa" height="17">](./01-finance-analytics-dashboard)
+### Finance Analytics Dashboard &nbsp;<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" height="19">&nbsp;&nbsp;[<img src="https://img.shields.io/badge/View%20Project-%3E-4a86e8?style=flat-square&labelColor=eef3fb" height="19">](./01-finance-analytics-dashboard)
 
 A two-page Power BI dashboard ("FinSight") monitoring financial transactions, fees, taxes, and customer behavior — with KPI tracking, YoY comparisons, and a drill-down transaction grid.
 
@@ -37,10 +41,8 @@ A two-page Power BI dashboard ("FinSight") monitoring financial transactions, fe
 - Loan EMI and Transfers are the two most frequent transaction types, together ~⅓ of all volume
 - The customer base skews Retail (54%), with Corporate and Wealth as the smallest but likely highest-value segments
 
-<br>
-
 <a id="hr-analytics-dashboard"></a>
-### HR Analytics Dashboard &nbsp;<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" height="17">&nbsp;&nbsp;[<img src="https://img.shields.io/badge/View%20Project-%E2%86%92-cfe2ff?style=flat-square&labelColor=f6f8fa" height="17">](./02-hr-analytics-dashboard)
+### HR Analytics Dashboard &nbsp;<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" height="19">&nbsp;&nbsp;[<img src="https://img.shields.io/badge/View%20Project-%3E-4a86e8?style=flat-square&labelColor=eef3fb" height="19">](./02-hr-analytics-dashboard)
 
 An employee attrition tracking dashboard with KPIs and breakdowns by department, gender, education, and job role.
 
@@ -49,10 +51,8 @@ An employee attrition tracking dashboard with KPIs and breakdowns by department,
 - Overtime workers left nearly twice as often as the overall workforce (53.8% vs. 28.2%)
 - Research & Development accounts for 55.9% of all attrition, the highest of any department
 
-<br>
-
 <a id="promotions-dashboard"></a>
-### Promotions Dashboard &nbsp;<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" height="17">&nbsp;&nbsp;[<img src="https://img.shields.io/badge/View%20Project-%E2%86%92-cfe2ff?style=flat-square&labelColor=f6f8fa" height="17">](./03-promotions-dashboard)
+### Promotions Dashboard &nbsp;<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" height="19">&nbsp;&nbsp;[<img src="https://img.shields.io/badge/View%20Project-%3E-4a86e8?style=flat-square&labelColor=eef3fb" height="19">](./03-promotions-dashboard)
 
 A retail revenue & promotions performance dashboard comparing revenue with vs. without promotions, using Walmart order data.
 
@@ -61,10 +61,8 @@ A retail revenue & promotions performance dashboard comparing revenue with vs. w
 - The revenue gap is driven more by promotion frequency (52.1% of transactions) than larger basket sizes
 - Store performance is fairly even, with Los Angeles narrowly leading
 
-<br>
-
 <a id="sql-data-cleaning-layoffs-dataset"></a>
-### SQL Data Cleaning — Layoffs Dataset &nbsp;<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" height="17">&nbsp;&nbsp;[<img src="https://img.shields.io/badge/View%20Project-%E2%86%92-cfe2ff?style=flat-square&labelColor=f6f8fa" height="17">](./04-sql-data-cleaning-layoffs)
+### SQL Data Cleaning — Layoffs Dataset &nbsp;<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" height="19">&nbsp;&nbsp;[<img src="https://img.shields.io/badge/View%20Project-%3E-4a86e8?style=flat-square&labelColor=eef3fb" height="19">](./04-sql-data-cleaning-layoffs)
 
 An end-to-end data cleaning workflow — deduplication, standardization, and null handling — on a company layoffs dataset.
 
@@ -73,10 +71,8 @@ An end-to-end data cleaning workflow — deduplication, standardization, and nul
 - ~⅓ of records were missing the core layoff-severity metrics (`total_laid_off`, `percentage_laid_off`) before cleaning
 - Downstream analysis should explicitly account for this missingness rather than treat the cleaned data as complete
 
-<br>
-
 <a id="sales-performance-dashboard"></a>
-### Sales Performance Dashboard &nbsp;<img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" height="17">&nbsp;&nbsp;[<img src="https://img.shields.io/badge/View%20Project-%E2%86%92-cfe2ff?style=flat-square&labelColor=f6f8fa" height="17">](./05-sales-performance-dashboard)
+### Sales Performance Dashboard &nbsp;<img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" height="19">&nbsp;&nbsp;[<img src="https://img.shields.io/badge/View%20Project-%3E-4a86e8?style=flat-square&labelColor=eef3fb" height="19">](./05-sales-performance-dashboard)
 
 A Tableau sales KPI dashboard with parameter-driven Top N analysis, built on the Northwind Traders dataset.
 
@@ -86,6 +82,8 @@ A Tableau sales KPI dashboard with parameter-driven Top N analysis, built on the
 - 38.9% of order line items include a discount, averaging 5.6% off when applied
 
 Each project folder contains its own `README.md` with a full overview, dataset description, screenshots (where available), and skills demonstrated.
+
+---
 
 ---
 
@@ -148,6 +146,8 @@ data-analytics-portfolio/
     └── data/
         └── Northwind-Traders-Data.xlsx
 ```
+
+---
 
 ---
 

@@ -1,3 +1,5 @@
+<hr>
+
 <div align="center">
 
 # Project 3: Promotions Dashboard
@@ -17,6 +19,7 @@ A multi-page Power BI dashboard built during a professional training course to m
 ## 🖼️ Reports
 
 ![Promotions Dashboard](./reports/promotions-dashboard.png)
+
 *Promotions Dashboard — revenue comparisons with and without promotions, segmented by month and store*
 
 ## 🛠️ Project Details
@@ -52,3 +55,5 @@ Data Visualization (KPI cards, stacked column chart, line chart) · CSV source d
 ---
 
 <sub>Part of the [Data Analytics Portfolio](../README.md)</sub>
+
+<hr>

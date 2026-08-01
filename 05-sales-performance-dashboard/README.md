@@ -1,3 +1,5 @@
+<hr>
+
 <div align="center">
 
 # Project 5: Sales Performance Dashboard (Northwind Traders)
@@ -19,9 +21,11 @@ An interactive Tableau sales performance dashboard built during a professional t
 The workbook contains two dashboards and a story combining multiple views:
 
 ![Main Dashboard](./reports/northwind-traders-main-dashboard.png)
+
 *Main Dashboard — Revenue, Orders, Customers, Avg Discount, and Avg Shipping KPIs with trend lines*
 
 ![Orders Dashboard](./reports/northwind-traders-orders-dashboard.png)
+
 *Orders Dashboard — Top N Customers/Products (parameter-driven), donut chart, tree map, and subcategory breakdown*
 
 > Note: these are workbook thumbnail previews extracted from the Tableau file. For higher-resolution images, open the workbook in Tableau Desktop/Public and export each dashboard directly.
@@ -58,3 +62,5 @@ Parameters · KPI Design · Trend Analysis · Top-N Analysis · Dashboards & Sto
 ---
 
 <sub>Part of the [Data Analytics Portfolio](../README.md)</sub>
+
+<hr>

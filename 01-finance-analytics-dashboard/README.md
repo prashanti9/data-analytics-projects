@@ -1,3 +1,5 @@
+<hr>
+
 <div align="center">
 
 # Project 1: Finance Analytics Dashboard
@@ -26,9 +28,11 @@ Full requirements are in [`docs/Business-Requirements.docx`](./docs/Business-Req
 ## 🖼️ Reports
 
 ![Overview Analysis](./reports/overview-analysis.png)
+
 *Overview Analysis — KPI cards (Total Amount, Transactions, Fees, Tax, Avg Transaction Value) with YoY change, monthly trend, status/gender donuts, segment/state bars, and a transaction-type matrix*
 
 ![Transactions](./reports/transactions.png)
+
 *Transactions — detailed, filterable grid for drilling into individual transaction records*
 
 ## 🛠️ Project Details
@@ -72,3 +76,5 @@ Data Modeling (fact/dimension relationship), KPI cards, YoY DAX calculations
 ---
 
 <sub>Part of the [Data Analytics Portfolio](../README.md)</sub>
+
+<hr>

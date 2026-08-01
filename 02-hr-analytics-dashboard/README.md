@@ -1,3 +1,5 @@
+<hr>
+
 <div align="center">
 
 # Project 2: HR Analytics Dashboard
@@ -18,6 +20,7 @@ An interactive Power BI dashboard built during a professional training course to
 ## 🖼️ Reports
 
 ![HR Analytics Dashboard](./reports/hr-analytics-dashboard.png)
+
 *HR Analytics Dashboard — attrition overview with KPIs and workforce breakdowns*
 
 ## 🛠️ Project Details
@@ -56,3 +59,5 @@ Data Modeling (star-schema style)
 ---
 
 <sub>Part of the [Data Analytics Portfolio](../README.md)</sub>
+
+<hr>
